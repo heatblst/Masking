@@ -1,0 +1,85 @@
+body{
+	background:#F0E68C;
+}
+.name{
+	text-align: center;
+	text-decoration:underline;
+	font-size:50px;
+
+}
+input[type="file"]{
+	color:white;
+	background:#00FF7F;
+	border-radius:10%;
+	border: 2px solid white;
+	padding:10px;
+	margin-top:4%;
+	width:40%;
+  margin-left:30%;
+}
+
+.btn {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid $red;
+  border-radius: 0.6em;
+  color: $red;
+  cursor: pointer;
+  display: flex;
+  float:left;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  font-weight: 700;
+  background:#AAF5C8;
+  font: italic bold 18px Georgia, serif;
+}
+#button{
+  margin-top:8%;
+}
+
+.hide {
+	display: none;
+}
+#can{
+  height: 319px;
+  width:332px;
+  object-fit: cover;
+  clip-path: polygon(80% 0, 100% 26.8%, 77% 89.5%, 13% 100%, 0 83%, 0 0);
+  float:left;
+}
+#canvas{
+  width:450px;
+  height:580px;
+  float:right;
+  clip-path: polygon(50% 0, 74.9% 0, 98.8% 32%, 89.2% 44.3%, 26.5% 62.95%, 3% 32%, 27% 0);
+  margin-right:13%;
+  margin-top:.5%;
+  transform:rotate(291deg);
+}
+#img{
+    background: url(fill.jpg) no-repeat center ;
+    height: 600px;
+    width: 600px;
+    background-size:cover;
+    margin:auto;
+    margin-bottom:5%;
+    margin-top:50%;
+}
+.result{
+  height:500px;
+  width:500px;
+	margin-top:2%;
+	margin-left:10%;
+  object-fit:cover;
+  float:left;
+}
+.cropped{
+	border: 1px solid #90EE90;
+	margin-top:10%;
+  margin-right:10%;
+  object-fit:cover;
+  float:right;
+}
